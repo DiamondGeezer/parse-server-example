@@ -20,6 +20,18 @@
     "SERVER_URL": {
       "description": "URL to connect to your Heroku instance (update with your app's name + PARSE_MOUNT)",
       "value": "http://yourappname.herokuapp.com/parse"
+    },
+    "PARSE_SERVER_PUSH": {
+        "android": {
+            "senderId": "Your GCM sender ID",
+            "apiKey": "Your API key"
+        },
+        "ios": {
+            "pfx": "/parse/ParsePushCert.p12",
+            "passphrase": "optional password here",
+            "bundleId": "bundleID here",
+            "production": true
+        }
     }
   },
   "image": "heroku/nodejs",
