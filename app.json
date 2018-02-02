@@ -27,10 +27,10 @@
             "apiKey": "Your API key"
         },
         "ios": {
-            "pfx": "/parse/ParsePushCert.p12",
-            "passphrase": "optional password here",
-            "bundleId": "bundleID here",
-            "production": true
+            "pfx": "/devPushCert.p12",
+            "passphrase": "",
+            "bundleId": "com.hagerlabs.HDR360",
+            "production": false
         }
     }
   },
